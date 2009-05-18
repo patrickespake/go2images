@@ -1,0 +1,88 @@
+body {
+  background-color:#035d92;
+  font-family:Verdana,sans-serif;
+  font-size:12px;
+  margin:0;
+  padding:0;
+}
+
+img {
+  border:0px;
+}
+
+#content {
+  background-color:#fff;
+  width:760px;
+  margin:0 auto;
+  margin-top:10px;
+  margin-bottom:10px;
+  padding:10px;
+}
+
+label {
+  display:block;
+  font-weight:bold;
+}
+
+input[type='text'] {
+  width:740px;
+}
+
+.fieldWithErrors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+#errorExplanation {
+  width: 400px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 12px;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+
+#errorExplanation h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: -7px;
+  background-color: #c00;
+  color: #fff;
+}
+
+#errorExplanation p {
+  color: #333;
+  margin-bottom: 0;
+  padding: 5px;
+}
+
+#errorExplanation ul li {
+  font-size: 12px;
+  list-style: square;
+}
+
+#notice_success {
+  background-color:#EAFFC5;
+  border:1px solid green;
+  color:green;
+  font-size:12px;
+  font-weight:bold;
+  margin-bottom:10px;
+  padding:10px;
+}
+
+#notice_error {
+  color:red; 
+  border-color:red; 
+  border-style:solid; 
+  border-width:1px; 
+  padding:10px; 
+  font-size:12px; 
+  font-weight:bold; 
+  background-color:#ffc4c4;
+  margin-bottom:10px;
+}
+
