@@ -1,0 +1,34 @@
+h2. Instalação
+
+No diretório <b>go2images/db/migrate</b> existem 4 arquivos <b>SQL</b>:
+
+# 001_create_db.sql
+# 002_create_table_image_types.sql
+# 003_create_table_images.sql
+# 004_create_table_image_sizes.sql
+
+Execute os arquivos acima no seu banco de dados MySQL.
+
+h2. Configuração
+
+No arquivo <b>go2images/db/DatabaseConnection.php</b> configure os dados de conexão com o seu banco de dados:
+
+<pre>
+<code>
+...
+   // Atributos
+  private static $host = '';
+  private static $user = '';
+  private static $password = '';
+  private static $db = '';
+...
+</code>
+</pre>
+
+Todas as imagens são criadas no diretório <b>public/images/system</b>, desta forma configure as permissões:
+
+<pre>
+<code>
+chmod -R 777 public/images/system
+</code>
+</pre>
