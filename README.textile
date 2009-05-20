@@ -32,3 +32,7 @@ Todas as imagens são criadas no diretório <b>public/images/system</b>, desta f
 chmod -R 777 public/images/system
 </code>
 </pre>
+
+h2. Mais informações
+
+Acesse: "http://patrickespake.wordpress.com/2009/05/19/lab-go2images-resize-e-crop-de-imagens-no-formato-gif-png-ou-jpg/":http://patrickespake.wordpress.com/2009/05/19/lab-go2images-resize-e-crop-de-imagens-no-formato-gif-png-ou-jpg/
