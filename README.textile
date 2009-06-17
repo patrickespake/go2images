@@ -1,3 +1,46 @@
+h1. In English
+
+h2. Installation
+
+In the <b>go2images/db/migrate</b> there are 4 files <b>SQL</b>:
+
+# 001_create_db.sql
+# 002_create_table_image_types.sql
+# 003_create_table_images.sql
+# 004_create_table_image_sizes.sql
+
+Perform the above files in your MySQL database.
+	
+h2. Configuration
+
+In the file <b>go2images/db/DatabaseConnection.php</b> to configure the data connection to your database:
+
+<pre>
+<code>
+...
+   // Attributes
+  private static $host = '';
+  private static $user = '';
+  private static $password = '';
+  private static $db = '';
+...
+</code>
+</pre>
+	
+All images are created in the directory <b>public/images/system</b>, so set the permissions:
+
+<pre>
+<code>
+chmod -R 777 public/images/system
+</code>
+</pre>
+
+h2. More informations
+
+Access: "http://blog.patrickespake.com/2009/05/19/lab-go2images-resize-e-crop-de-imagens-no-formato-gif-png-ou-jpg/":http://blog.patrickespake.com/2009/05/19/lab-go2images-resize-e-crop-de-imagens-no-formato-gif-png-ou-jpg/
+
+h1. Em Português
+
 h2. Instalação
 
 No diretório <b>go2images/db/migrate</b> existem 4 arquivos <b>SQL</b>:
