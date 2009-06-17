@@ -1,5 +1,11 @@
 h1. In English
 
+h2. Description
+
+The Go2Images was developed using the programming language PHP and the MVC design pattern. He works with the GD library to perform operations to resize and crop.
+
+You can set the size the images should be resized, registering the width and height, the system finds all kinds of sizes and works with affiliates such information to perform the resize and crop the images.
+
 h2. Installation
 
 In the <b>go2images/db/migrate</b> there are 4 files <b>SQL</b>:
