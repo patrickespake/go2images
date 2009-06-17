@@ -10,7 +10,7 @@ In the <b>go2images/db/migrate</b> there are 4 files <b>SQL</b>:
 # 004_create_table_image_sizes.sql
 
 Perform the above files in your MySQL database.
-	
+
 h2. Configuration
 
 In the file <b>go2images/db/DatabaseConnection.php</b> to configure the data connection to your database:
