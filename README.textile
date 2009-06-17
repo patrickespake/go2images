@@ -42,6 +42,12 @@ Example: "http://lab.patrickespake.com/go2images":http://lab.patrickespake.com/g
 
 h1. Em Português
 
+h2. Descrição
+
+O Go2Images foi desenvolvido usando a linguagem de programação PHP e o padrão de projeto MVC. Ele usa a biblioteca GD para realizar as operações de resize e crop.
+
+Você pode definir os tamanhos que as imagens devem ser redimensionadas, cadastrando a largura e altura, os sistema verifica todos os tipos de tamanhos cadastrados e usa essas informações para efetuar o resize e crop da imagens.
+
 h2. Instalação
 
 No diretório <b>go2images/db/migrate</b> existem 4 arquivos <b>SQL</b>:
