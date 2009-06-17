@@ -35,4 +35,4 @@ chmod -R 777 public/images/system
 
 h2. Mais informações
 
-Acesse: "http://patrickespake.wordpress.com/2009/05/19/lab-go2images-resize-e-crop-de-imagens-no-formato-gif-png-ou-jpg/":http://patrickespake.wordpress.com/2009/05/19/lab-go2images-resize-e-crop-de-imagens-no-formato-gif-png-ou-jpg/
+Acesse: "http://blog.patrickespake.com/2009/05/19/lab-go2images-resize-e-crop-de-imagens-no-formato-gif-png-ou-jpg/":http://blog.patrickespake.com/2009/05/19/lab-go2images-resize-e-crop-de-imagens-no-formato-gif-png-ou-jpg/
